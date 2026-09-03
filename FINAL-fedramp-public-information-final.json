@@ -1,0 +1,63 @@
+{
+  "last_updated": "2026-08-10",
+  "fedramp_id": null,
+  "serviceIdentification": {
+    "name": "JupiterOne, Inc.",
+    "service_model": "SaaS",
+    "deployment_model": "Public Cloud",
+    "business_category": "Cybersecurity & Risk Management",
+    "uei_number": "WV2CAEYKZHY9",
+    "ein": "85-1643254",
+    "duns": "117645046",
+    "cage_code": "14CG1",
+    "naics_codes": ["511210", "513210"],
+    "naics_description": "Software Publishers",
+    "data_privacy_framework_registration": "Registered; dispute resolution administered via JAMS ADR",
+    "overall_service_description": "JupiterOne is a cloud-based cyber asset attack surface management (CAASM) platform that gives security teams visibility into an organization's digital assets, the relationships between those assets, and the risks and compliance gaps affecting them. The platform integrates with an organization's existing cloud providers, identity and access management tools, code repositories, endpoint management, vulnerability scanners, and ticketing systems to automatically build and continuously update an asset inventory, map asset relationships in a graph model, and let users query that inventory in natural language. Built-in compliance dashboards map assets and controls to supported compliance frameworks and surface the evidence needed to demonstrate adherence, while configurable rules and alerts monitor for vulnerabilities, policy violations, and risk changes over time.",
+    "product_website_link": "https://www.jupiterone.com",
+    "product_logo_link": "https://mma.prnewswire.com/media/1492212/JupiterOne_Logo.jpg?w=200"
+  },
+  "serviceProperties": {
+    "service_list": [
+      {
+        "service_name": "JupiterOne GovCloud",
+        "security_category": "Low",
+        "in_fedramp_scope": true,
+        "description": "The government-focused deployment of the JupiterOne cyber asset attack surface management platform, providing federal customers with continuous asset visibility, relationship mapping, and compliance evidence management within a dedicated environment aligned to FedRAMP requirements."
+      }
+    ],
+    "secure_configuration_guidance_link": null,
+    "documentation_overview": "JupiterOne's Legal and Security Hub hosts the Company's SOC 2 Type II report (examination period October 1, 2024 \u2013 September 30, 2025; Security, Availability, and Confidentiality Trust Services Categories), associated audit engagement documentation, and supporting compliance materials.",
+    "certification_status": {
+      "marketplace_link": null,
+      "certification_type": "20x",
+      "certification_path": "Program",
+      "target_certification_class": "Class A",
+      "current_alternative_framework": "SOC 2 Type II",
+      "alternative_framework_completion_date": "2025-09-30",
+      "current_fedramp_recognized_assessor": null,
+      "next_ongoing_certification_report_date": "2026-12-23"
+    }
+  },
+  "contactInformation": {
+    "sales_contact": {
+      "name": "Ron Antinori",
+      "email": "ron.antinori@jupiterone.com",
+      "phone": "833-578-7663"
+    },
+    "security_contact": {
+      "name": "Christopher Doyle",
+      "email": "christopher.doyle@jupiterone.com",
+      "phone": "252-512-3646"
+    },
+    "fedramp_security_inbox": "fedramp@jupiterone.com",
+    "trust_center": {
+      "landing_page_url": "https://www.jupiterone.com/legal-and-security-hub",
+      "status_page_url": "https://status.us.jupiterone.io/",
+      "access_instructions": "Navigate to jupiterone.com, select \"Trust Portal,\" then \"Documents,\" then locate the FedRAMP section. Most documents require agreeing to a click-through NDA before access is granted, unless the requester's email domain has been pre-approved in advance.",
+      "availability_status": "Operational",
+      "recent_disruptions": "None reported",
+      "customer_support_contact": "support@jupiterone.com"
+    }
+  }
+}

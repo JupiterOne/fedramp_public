@@ -1,0 +1,53 @@
+{
+  "certificationPackageOverviewUri": "https://www.jupiterone.com/legal-and-security-hub/fedramp-public-information-final.json",
+  "fedRampPackageId": "FR2632054495",
+  "cloudServiceOffering": "JupiterOne GovCloud",
+  "reportPeriod": {
+    "from": "2027-01-01",
+    "to": "2027-03-31"
+  },
+  "reportIssuedDate": "2027-04-05",
+  "preparedBy": "Christopher Doyle, Security Architect",
+  "nextReportDueDate": "2027-07-05",
+  "executiveSummary": "EXAMPLE / ILLUSTRATIVE ONLY. High-level summary of the reporting period.",
+  "certificationDataChanges": [
+    "EXAMPLE: Brief description of a change made to Certification Data during the period."
+  ],
+  "plannedCertificationDataChanges": {
+    "planningHorizonThrough": "2027-06-30",
+    "changes": [
+      "EXAMPLE. Brief description of a planned upcoming change to Certification Data, targeted for 2027-05-01."
+    ]
+  },
+  "transformativeChanges": [],
+  "acceptedVulnerabilities": "None \u2014 no vulnerabilities were formally accepted rather than remediated during this reporting period.",
+  "reportableIncidents": {
+    "count": 0,
+    "summary": "No FedRAMP reportable incidents occurred during this reporting period.",
+    "incidents": []
+  },
+  "activeAgencies": [
+    "EXAMPLE: Agency name(s) currently using JupiterOne GovCloud"
+  ],
+  "updatedRecommendations": [],
+  "vulnerabilitySummary": {
+    "critical": { "identified": 0, "remediated": 0, "openWithinWindow": 0 },
+    "high": { "identified": 0, "remediated": 0, "openWithinWindow": 0 },
+    "moderate": { "identified": 0, "remediated": 0, "openWithinWindow": 0 },
+    "low": { "identified": 0, "remediated": 0, "openWithinWindow": 0 }
+  },
+  "availabilitySummary": {
+    "uptimePercent": "99.9",
+    "disruptionCount": 0,
+    "totalDowntimeMinutes": 0
+  },
+  "ksiStatus": [
+    { "ksi": "KSI-CMT-LMC", "status": "On Track" },
+    { "ksi": "KSI-CNA-RNT", "status": "On Track" },
+    { "ksi": "KSI-CED-RAT", "status": "On Track" },
+    { "ksi": "KSI-IAM-AAM", "status": "On Track" },
+    { "ksi": "KSI-IAM-APM", "status": "On Track" },
+    { "ksi": "KSI-INR-RIR", "status": "On Track" },
+    { "ksi": "KSI-SVC-SIN", "status": "On Track" }
+  ]
+}

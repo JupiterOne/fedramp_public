@@ -1,0 +1,21 @@
+{
+  "providerTrackingId": "EXAMPLE-2027-002",
+  "certificationPackageOverviewUri": "https://www.jupiterone.com/legal-and-security-hub/fedramp-public-information-final.json",
+  "reportType": "Ongoing",
+  "cloudServiceOffering": "JupiterOne GovCloud",
+  "fedRampPackageId": "FR2632054495",
+  "severity": "Low",
+  "fedRampReportable": true,
+  "detectedAt": "2027-02-10T08:15:00Z",
+  "updateAt": "2027-02-11T14:00:00Z",
+  "observedActivity": "EXAMPLE / ILLUSTRATIVE ONLY. Observed incident activity since the last report.",
+  "indicatorsOfCompromise": [
+    "EXAMPLE: indicator, if applicable"
+  ],
+  "relatedCve": "EXAMPLE: CVE-2027-XXXXX, if applicable, or null",
+  "rootCause": "EXAMPLE. Root cause as currently understood \u2014 may be preliminary.",
+  "responseAndRecoveryActivities": "EXAMPLE. Actions taken since the previous report.",
+  "previouslyReportedUpdates": "EXAMPLE. Updates (or explicit statement of no change) to all previously reported information from the Initial Incident Report.",
+  "preparedBy": "Christopher Doyle, Security Architect",
+  "reportDate": "2027-02-11"
+}

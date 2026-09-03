@@ -1,0 +1,25 @@
+{
+  "providerTrackingId": "EXAMPLE-2027-001",
+  "certificationPackageOverviewUri": "https://www.jupiterone.com/legal-and-security-hub/fedramp-public-information-final.json",
+  "reportType": "Final",
+  "cloudServiceOffering": "JupiterOne GovCloud",
+  "fedRampPackageId": "FR2632054495",
+  "severity": "Low",
+  "fedRampReportable": false,
+  "detectedAt": "2027-01-15T09:00:00Z",
+  "resolvedAt": "2027-01-15T17:45:00Z",
+  "summary": "EXAMPLE / ILLUSTRATIVE ONLY. Plain-language summary of what happened, what was affected, and the outcome.",
+  "impactAssessment": "EXAMPLE. Systems, data, and users affected; whether federal customer data or systems within the FedRAMP Minimum Assessment Scope were impacted.",
+  "remediationActions": "EXAMPLE. Actions taken to contain, eradicate, and recover.",
+  "correctiveActions": "EXAMPLE. Longer-term preventive measures taken or planned.",
+  "notifications": [
+    {
+      "date": "2027-01-15",
+      "audience": "Example: Affected agency customers",
+      "method": "Example: Trust Center status update",
+      "summary": "EXAMPLE. Brief summary of what was communicated."
+    }
+  ],
+  "preparedBy": "Christopher Doyle, Security Architect",
+  "reportDate": "2027-01-15"
+}

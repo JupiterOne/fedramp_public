@@ -1,0 +1,33 @@
+{
+  "providerTrackingId": "EXAMPLE-2027-002",
+  "certificationPackageOverviewUri": "https://www.jupiterone.com/legal-and-security-hub/fedramp-public-information-final.json",
+  "reportType": "Initial",
+  "cloudServiceOffering": "JupiterOne GovCloud",
+  "fedRampPackageId": "FR2632054495",
+  "severity": "Low",
+  "fedRampReportable": true,
+  "detectedAt": "2027-02-10T08:15:00Z",
+  "federalIncidentResponseCoordinator": {
+    "name": "Christopher Doyle",
+    "title": "Security Architect",
+    "email": "christopher.doyle@jupiterone.com",
+    "phone": "252-512-3646"
+  },
+  "summary": "EXAMPLE / ILLUSTRATIVE ONLY. Plain-language description of the incident as known at initial report time.",
+  "timeline": {
+    "startTime": "2027-02-10T08:00:00Z",
+    "detectionTime": "2027-02-10T08:15:00Z",
+    "reportabilityEvaluationCompletedTime": "2027-02-10T09:00:00Z"
+  },
+  "painRating": {
+    "estimated": 2,
+    "explanation": "EXAMPLE. Brief explanation of the estimated Potential Agency Impact N-rating per IEC-CSO-EFI."
+  },
+  "functionalImpact": "EXAMPLE. Impact to confidentiality and/or integrity and the federal customer data types affected.",
+  "estimatedRecoveryPlan": "EXAMPLE. Recovery plan, milestones, and estimated timeline.",
+  "likelyAffectedAgencies": [
+    "EXAMPLE: Agency name(s) likely affected"
+  ],
+  "preparedBy": "Christopher Doyle, Security Architect",
+  "reportDate": "2027-02-10"
+}

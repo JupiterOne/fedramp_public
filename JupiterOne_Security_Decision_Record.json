@@ -1,0 +1,731 @@
+{
+  "certificationPackageOverviewUri": "https://www.jupiterone.com/legal-and-security-hub/fedramp-public-information-final.json",
+  "fedRampPackageId": "FR2632054495",
+  "version": "1.0",
+  "lastUpdated": "2026-09-03",
+  "sourceOfUpdate": "Christopher Doyle, Security Architect",
+  "fedRampRequirements": [
+    {
+      "frrID": "FRC-CSO-PKG",
+      "frrImplementation": [
+        "Certification Package assembled from the Certification Package Overview (Public Information JSON), this Security Decision Record, and a real/example Ongoing Certification Report."
+      ],
+      "frrVerification": "Package composition reviewed against FRC-CSO-PKG requirements by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Confirmed all three required components exist and are current as of this submission."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "FRC-CSO-JSN",
+      "frrImplementation": [
+        "Public Information JSON built to match FedRAMP's Certification Package Overview schema."
+      ],
+      "frrVerification": "Validated against FedRAMP's official JSON Schema Validator (FRC-CSO-PKG schema).",
+      "frrValidation": [
+        "Validator returned a clean pass with no blocking errors."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "FRC-CSO-POP",
+      "frrImplementation": [
+        "Decision made: FedRAMP 20x Program path, Class A, leveraging SOC 2 Type II as the underlying framework."
+      ],
+      "frrVerification": "Decision documented in the Certification Package Overview.",
+      "frrValidation": [
+        "Confirmed consistent across all package materials."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "MAS-CSO-IIR",
+      "frrImplementation": [
+        "Full infrastructure and software inventory documented via SOC 2 system description."
+      ],
+      "frrVerification": "Cross-referenced against SOC 2 system description by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Confirmed current as of SOC 2 Type II report period end (2025-09-30)."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CDS-CSO-PUB",
+      "frrImplementation": [
+        "All required public fields populated in both JSON and human-readable formats."
+      ],
+      "frrVerification": "Cross-checked field-by-field against CDS-CSO-PUB's required data points.",
+      "frrValidation": [
+        "Validated via FedRAMP JSON Schema Validator; human-readable counterpart confirmed to match."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CDS-CSO-UTC",
+      "frrImplementation": [
+        "JupiterOne's Legal and Security Hub is live and hosts all Certification Package materials."
+      ],
+      "frrVerification": "Confirmed operational by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Confirmed FedRAMP reviewer was able to access materials after domain pre-approval."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CDS-UTC-AAD",
+      "frrImplementation": [
+        "Internal process: agency access requests logged as Jira tickets tagged fedramp-agency-access; denials flagged with date/reason; 5-business-day FedRAMP notification owned by Christopher Doyle."
+      ],
+      "frrVerification": "Process reviewed and confirmed adopted by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Confirmed operational using existing Jira instance."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "AFC-CSO-INB",
+      "frrImplementation": [
+        "Dedicated FedRAMP Security Inbox established: fedramp@jupiterone.com."
+      ],
+      "frrVerification": "Inbox existence and routing confirmed by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Deliverability confirmed via real test email sent from an external domain."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "AFC-CSO-RCV",
+      "frrImplementation": [
+        "FedRAMP Security Inbox confirmed to receive external email without spam filtering or disruption."
+      ],
+      "frrVerification": "Test performed and confirmed by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Real test email from an external domain received successfully."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "AFC-CSO-CRA",
+      "frrImplementation": [
+        "Forward-looking operational commitment; not yet triggered since no FedRAMP request has been received."
+      ],
+      "frrVerification": "Not applicable \u2014 no action has been requested by FedRAMP to date.",
+      "frrValidation": [
+        "Not applicable \u2014 will be validated the first time a real request is received post-certification."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "IEC-CSO-EFR",
+      "frrImplementation": [
+        "Reportability Addendum incorporated into JupiterOne's live Incident Response Policy, adding an explicit FedRAMP reportability decision step."
+      ],
+      "frrVerification": "Addendum content reviewed against IEC-CSO-EFR requirements.",
+      "frrValidation": [
+        "Confirmed merged into the live IR Policy, inheriting its existing annual review cadence."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "IEC-CSO-FIR",
+      "frrImplementation": [
+        "Final Incident Report template built matching the FedRAMP Incident Report schema."
+      ],
+      "frrVerification": "Template structure validated against the FedRAMP Incident Report JSON schema.",
+      "frrValidation": [
+        "Validator returned a clean pass with no blocking errors."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": [
+        "JupiterOne_Example_Final_Incident_Report.json (validated against FedRAMP Incident Report schema)",
+        "JupiterOne_Example_Final_Incident_Report.docx"
+      ]
+    },
+    {
+      "frrID": "IEC-CSO-IIR",
+      "frrImplementation": [
+        "Initial Incident Report template built matching the FedRAMP Incident Report schema."
+      ],
+      "frrVerification": "Template structure validated against the FedRAMP Incident Report JSON schema.",
+      "frrValidation": [
+        "Validator returned a clean pass with no blocking errors."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "IEC-CSO-OIR",
+      "frrImplementation": [
+        "Ongoing Incident Report template built matching the FedRAMP Incident Report schema."
+      ],
+      "frrVerification": "Template structure validated against the FedRAMP Incident Report JSON schema.",
+      "frrValidation": [
+        "Validator returned a clean pass with no blocking errors."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "IVV-CSX-AIA",
+      "frrImplementation": [
+        "SOC 2 Type II examination performed annually by an independent third-party auditor under AT-C 105/205, constituting the persistent IV&V required for Class A."
+      ],
+      "frrVerification": "Confirmed unqualified opinion, no exceptions noted, examination period 2024-10-01 to 2025-09-30.",
+      "frrValidation": [
+        "Report reviewed and accepted as satisfying IVV-CSX-AIA."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-CSO-DET",
+      "frrImplementation": [
+        "Daily vulnerability scanning with remedial action, plus annual third-party penetration testing."
+      ],
+      "frrVerification": "Confirmed via SOC 2 CC7.1 testing procedures.",
+      "frrValidation": [
+        "No exceptions noted for the examination period."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CCM-OCR-AVL",
+      "frrImplementation": [
+        "Example Ongoing Certification Report built in both human-readable and machine-readable formats."
+      ],
+      "frrVerification": "JSON version validated against FedRAMP's Ongoing Certification Report schema.",
+      "frrValidation": [
+        "Validator returned a clean pass after field-structure corrections."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CCM-OCR-NRD",
+      "frrImplementation": [
+        "Next report date confirmed: on or about 2026-12-23."
+      ],
+      "frrVerification": "Confirmed by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Published in Public Information JSON."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "CDS-CSO-AVR",
+      "frrImplementation": [
+        "JupiterOne maintains a public status page showing real-time and 90-day historical availability, hosted independently on Atlassian Statuspage."
+      ],
+      "frrVerification": "Confirmed live and accessible by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Human-readable page confirmed; 90-day history exceeds the 30-day minimum; machine-readable format confirmed via Atom/RSS feeds."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-TFR-MVX",
+      "frrImplementation": [
+        "Daily vulnerability scanning exceeds the monthly minimum cadence required for verifying and validating machine-based information resource status."
+      ],
+      "frrVerification": "Confirmed via SOC 2 CC7.1 testing (daily automated scans).",
+      "frrValidation": [
+        "No exceptions noted for the examination period; cadence exceeds SHOULD requirement by a wide margin."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-TFR-PCD",
+      "frrImplementation": [
+        "Daily vulnerability scanning exceeds the 6-month minimum cadence for non-drift-likely resources."
+      ],
+      "frrVerification": "Confirmed via SOC 2 CC7.1 testing.",
+      "frrValidation": [
+        "No exceptions noted; cadence exceeds SHOULD requirement."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-TFR-PDD",
+      "frrImplementation": [
+        "Daily vulnerability scanning exceeds the 3-month minimum cadence for drift-likely resources."
+      ],
+      "frrVerification": "Confirmed via SOC 2 CC7.1 testing.",
+      "frrValidation": [
+        "No exceptions noted; cadence exceeds SHOULD requirement."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-TFR-PSD",
+      "frrImplementation": [
+        "Daily vulnerability scanning exceeds the 14-day minimum cadence for representative sample detection."
+      ],
+      "frrVerification": "Confirmed via SOC 2 CC7.1 testing.",
+      "frrValidation": [
+        "No exceptions noted; cadence exceeds SHOULD requirement."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VDR-TFR-PVR",
+      "frrImplementation": [
+        "A PAIN Rating Scoring Rubric has been built, defining the 1-5 PAIN scale, LEV/NLEV exploitability criteria, internet-reachability determination, and the remediation timeframe table."
+      ],
+      "frrVerification": "Rubric drafted by Christopher Doyle, Security Architect, using FedRAMP's published PAIN timeframe table.",
+      "frrValidation": [
+        "Not yet operational \u2014 rubric exists as policy; PAIN/LEV/reachability fields have not yet been added to the vulnerability tracking tool, and SLA monitoring is not yet built. Reason and resulting risk accepted pending operational rollout, given JupiterOne GovCloud has no active federal agency customers as of this submission."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    },
+    {
+      "frrID": "VER-TFR-EVU",
+      "frrImplementation": [
+        "The PAIN Rating Scoring Rubric establishes a 14-day evaluation requirement tying vulnerability evaluation timing to PAIN/LEV/reachability determination."
+      ],
+      "frrVerification": "Rubric drafted by Christopher Doyle, Security Architect.",
+      "frrValidation": [
+        "Not yet operational \u2014 the 14-day evaluation SLA is defined in policy but not yet tracked against actual vulnerability findings. Reason and resulting risk accepted pending operational rollout, given JupiterOne GovCloud has no active federal agency customers as of this submission."
+      ],
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ],
+      "artifacts": []
+    }
+  ],
+  "keySecurityIndicators": [
+    {
+      "ksiId": "KSI-CMT-LMC",
+      "ksiImplementation": [
+        "Documented change management policy; production changes restricted to authorized users; code repository detects and alerts on unauthorized changes; management approval required."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 CC8.1 testing, no exceptions noted."
+      ],
+      "ksiAssessment": [
+        "Code repository alerting is automated; management approval gate is manual by design."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC8.1 change management testing procedures"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC8.1, pp. 145-146",
+          "location": "SOC 2 report, CC8.1, pp. 145-146"
+        }
+      ],
+      "ksiCycle": "Continuous \u2014 every production change is gated through this process, not on a periodic cycle.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-CNA-RNT",
+      "ksiImplementation": [
+        "AWS VPC/Security Group segmentation; default-deny firewall; WAF; IDS/IPS with alerting; role-based, MFA-gated VPN."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 CC6.1/CC6.6 testing, no exceptions noted."
+      ],
+      "ksiAssessment": [
+        "Firewall, WAF, and IDS/IPS enforcement and alerting are automated."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC6.1/CC6.6 network access control testing procedures"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC6.1/CC6.6, pp. 85, 106, 109",
+          "location": "SOC 2 report, CC6.1/CC6.6, pp. 85, 106, 109"
+        }
+      ],
+      "ksiCycle": "Continuous \u2014 network controls are always-on, not periodic.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-CED-RAT",
+      "ksiImplementation": [
+        "Security awareness training required at hire and annually; content updated based on monitoring-derived lessons learned."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 CC1.4/CC2.3 testing, no exceptions noted."
+      ],
+      "ksiAssessment": [
+        "Training assignment and completion tracking is automated; content review is manual."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC1.4/CC2.3 security awareness training testing procedures"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC1.4/CC2.3, p. 44",
+          "location": "SOC 2 report, CC1.4/CC2.3, p. 44"
+        }
+      ],
+      "ksiCycle": "Annual, plus at time of hire.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-IAM-AAM",
+      "ksiImplementation": [
+        "Access provisioning tied to HR onboarding; de-provisioning occurs automatically upon termination; roles reviewed quarterly, privileged roles annually."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 system description and CC6.2 testing."
+      ],
+      "ksiAssessment": [
+        "De-provisioning on termination is automated via HRIS-to-IdP integration; access reviews are manual."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC6.2 access provisioning/de-provisioning testing procedures"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC6.2, p. 99",
+          "location": "SOC 2 report, CC6.2, p. 99"
+        }
+      ],
+      "ksiCycle": "Provisioning/de-provisioning is event-driven (continuous); access reviews are quarterly and annual.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-IAM-APM",
+      "ksiImplementation": [
+        "Passwordless/phishing-resistant authentication enforced universally at first login via 1Password, Google Workspace enforced MFA, and YubiKey."
+      ],
+      "ksiValidation": [
+        "Confirmed via signed attestation from Christopher Doyle, Security Architect; not independently audited by SOC 2 (outside examination scope)."
+      ],
+      "ksiAssessment": [
+        "YubiKey/SSO gate enforcement is automated at the identity provider level."
+      ],
+      "ksiTests": [
+        "Direct company attestation review by Christopher Doyle, Security Architect (not independently audited by SOC 2)"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "JupiterOne Passwordless MFA Attestation (signed)",
+          "location": "JupiterOne Passwordless MFA Attestation (signed)"
+        }
+      ],
+      "ksiCycle": "Continuous \u2014 enforced at every login, not periodic.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-INR-RIR",
+      "ksiImplementation": [
+        "Documented IR and escalation procedures reviewed at least annually; incidents classified by severity; resolution documented and communicated."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 CC7.3 testing, no exceptions noted."
+      ],
+      "ksiAssessment": [
+        "Review cycle tracking is manual; incident classification is manual with tooling support."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC7.3 incident response procedure testing"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC7.3, p. 130",
+          "location": "SOC 2 report, CC7.3, p. 130"
+        }
+      ],
+      "ksiCycle": "Annual review cycle.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    },
+    {
+      "ksiId": "KSI-SVC-SIN",
+      "ksiImplementation": [
+        "AES-256 encryption at rest; TLS with trusted CA certificates in transit; encrypted backup replication between cloud regions."
+      ],
+      "ksiValidation": [
+        "Confirmed via SOC 2 CC6.7/A1.2 testing, no exceptions noted."
+      ],
+      "ksiAssessment": [
+        "Encryption enforcement is automated at the infrastructure/platform level."
+      ],
+      "ksiTests": [
+        "SOC 2 Type II CC6.7/A1.2 encryption control testing procedures"
+      ],
+      "ksiEvidence": [
+        {
+          "description": "SOC 2 report, CC6.7 p. 111 / A1.2 p. 158",
+          "location": "SOC 2 report, CC6.7 p. 111 / A1.2 p. 158"
+        }
+      ],
+      "ksiCycle": "Continuous \u2014 encryption is always-on, not periodic.",
+      "independentVerification": [
+        "Not applicable \u2014 JupiterOne has not engaged a FedRAMP Recognized independent assessment service for optional IV&V (IVV-CSO-FIA)."
+      ],
+      "independentValidation": [
+        "Not applicable \u2014 this Class A Certification relies on the underlying SOC 2 Type II alternative security framework per IVV-CSX-AIA, which constitutes the required persistent independent verification and validation for Class A."
+      ],
+      "responsesToIndependentVV": [
+        "Not applicable \u2014 no independent verification or validation comments exist to respond to, as no independent assessment has been engaged."
+      ]
+    }
+  ]
+}

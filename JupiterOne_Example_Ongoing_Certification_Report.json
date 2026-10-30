@@ -29,7 +29,9 @@
   "activeAgencies": [
     "EXAMPLE: Agency name(s) currently using JupiterOne GovCloud"
   ],
-  "updatedRecommendations": [],
+  "updatedRecommendations": [
+    "EXAMPLE: Updated the Secure Configuration Guidance to recommend enforcing phishing-resistant authentication (FIDO2/WebAuthn) at the customer's identity provider for all JupiterOne GovCloud users."
+  ],
   "vulnerabilitySummary": {
     "critical": { "identified": 0, "remediated": 0, "openWithinWindow": 0 },
     "high": { "identified": 0, "remediated": 0, "openWithinWindow": 0 },
